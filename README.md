@@ -14,3 +14,7 @@ A basic UI application which crates a randomized osu! skin from elements of othe
 * Press the "Create randomized skin" button  
 
 This should create a new skin called "!RANDOM" in your skins directory. Pressing the button again will **OVERWRITE** your previous skin and generate a new one. You can then press <kbd>SHIFT</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>S</kbd> in osu! to reload your skin to the newly randomized skin.
+
+
+## DISCLAIMER 
+The application directly creates and modifies a new folder in your skins directory. I would advise you to back up your skins. I am not responsible for any damage or loss of data

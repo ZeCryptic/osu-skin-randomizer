@@ -1,5 +1,8 @@
 # osu-skin-randomizer
 A basic UI application which crates a randomized osu! skin from elements of other skins
+
+![Application Window](https://github.com/ZeCryptic/osu-skin-randomizer/blob/assets/window.png)
+
 ## Running the program
 * Make sure you have [python 3 installed](https://www.python.org/downloads/)
 * Clone the project or [download the zip](https://github.com/ZeCryptic/osu-skin-randomizer/archive/master.zip)

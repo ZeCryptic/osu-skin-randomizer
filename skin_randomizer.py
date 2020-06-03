@@ -9,7 +9,7 @@ randomized_skin_name = "!RANDOM"
 
 def randomize(osu_skins_dir_path, rand_hit=True, rand_score=True, rand_judge=True, rand_follow=True):
     if not os.path.exists(osu_skins_dir_path):
-        raise Exception("ERROR: Invalid path")
+        raise Exception("ERROR: Directory does not exist")
     new_skin_path = delete_and_remake_skin(osu_skins_dir_path)  # dir/Skins/{randomized_skin_name}
     add_random_elements_to_new_skin(new_skin_path, osu_skins_dir_path, rand_hit, rand_score, rand_judge, rand_follow)
 
@@ -19,7 +19,7 @@ def get_all_skins_paths(osu_skin_dir_path) -> [str]:
                       os.path.isdir(f'{osu_skin_dir_path}\\{path}')
                       and path != randomized_skin_name]
     if len(skins_dir_list) < 1:
-        raise Exception("ERROR: Not enough skins in skins directory")
+        raise Exception("ERROR: Not enough skins in directory")
     return skins_dir_list
 
 
